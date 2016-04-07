@@ -1,6 +1,6 @@
 angular.module("nav-side/nav-side.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("nav-side/nav-side.html",
-    "<div class=\"nav-side\">\n" +
+    "<aside>\n" +
     "  <nav>\n" +
     "    <div class=\"navbar-header\">\n" +
     "      <button type=\"button\"\n" +
@@ -79,6 +79,6 @@ angular.module("nav-side/nav-side.html", []).run(["$templateCache", function($te
     "      </ul>\n" +
     "    </div>\n" +
     "  </nav>\n" +
-    "</div>\n" +
+    "</aside>\n" +
     "");
 }]);
